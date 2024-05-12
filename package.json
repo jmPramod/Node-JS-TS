@@ -1,0 +1,47 @@
+{
+  "name": "node-js-ts",
+  "version": "1.0.0",
+  "description": "REST APT ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "nodemon index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmPramod/Node-JS-TS.git"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "jwt",
+    "mongoose",
+    "error-handeling"
+  ],
+  "author": "Pramod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmPramod/Node-JS-TS/issues"
+  },
+  "homepage": "https://github.com/jmPramod/Node-JS-TS#readme",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/dotenv": "^8.2.0",
+    "@types/joi": "^17.2.3",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "joi": "^17.13.1",
+    "mongoose": "^8.3.4",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21"
+  }
+}
